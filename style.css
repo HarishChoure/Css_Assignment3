@@ -1,0 +1,80 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* Body */
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* main container styling*/
+.container{
+    height: 500px;
+    width : 800px;
+    display: grid;
+    background-color:#fff;
+    grid-template-columns: 275px 275px 230px;
+    grid-template-rows: 160px 160px 160px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+}
+/* header section styling */
+header{
+    grid-column: 1/-1;
+    background-color:  #FF9999;
+    border: 1px solid black;
+
+}
+header .p1{
+    font-size: xx-large;
+    margin:10px 92px 0 92px;
+    text-align: justify;
+ }
+ header .p2{
+    font-size:large;
+    margin: 20px 70px 0 70px;
+
+ }
+
+ /*Article Section styling  */
+section{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-color: yellow;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+section .img1{
+    background-image: url('Assignment-2-1.PNG');
+    background-size: cover;
+    width:530px;
+    height: 300px;
+    margin: 10px;
+}
+
+/* Aside Section styling*/
+aside{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color:#ECECFB;
+    text-align: center;
+    border: 1px solid black;
+}
+
+aside .img2{
+    background-image: url('Assignment-2-2.PNG');
+    background-repeat: no-repeat;
+    height: 140px;
+    width:140px;
+    margin-top: 15px;
+}
+aside .p3{
+    font-size: xx-large;
+}
+aside .p4{
+    margin: 15px  25px;
+}
